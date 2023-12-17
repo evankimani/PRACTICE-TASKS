@@ -1,0 +1,50 @@
+
+        body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom, lightgreen, lightblue);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center; 
+        }
+        .logincontainer{
+    background-color: white;
+    padding:200px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        input{
+            width: 250px;
+            align-self: center;
+            padding: 10px;
+            margin: 5px;
+            text-size-adjust: 400;
+            font-size: larger;
+
+        }
+        .btn{
+            margin: 5px;
+            width: 120px;
+            height: 50px;
+            background-color: aliceblue;
+            align-self: center;
+            cursor: pointer;
+            text-transform: uppercase;
+            border-radius: 5px;
+          
+          }
+        .btn:hover{
+            background-color: rgb(44, 44, 243);
+
+        }
+        .userlong{
+            color: red;
+            display: black;
+            font-family: 'Courier New', Courier, monospace;
+        
+        }
